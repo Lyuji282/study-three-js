@@ -8,7 +8,7 @@ import {setCubeTextureInEnvMap} from "../../../env-map/cube-texture";
 
 /** 商店街メッシュ */
 export function shoppingStreetMesh(resources: Resources): THREE.Mesh {
-  const envMapResource = resources.cubeTextures.find(v => v.id === CUBE_TEXTURE_IDS.BlueSky);
+  const envMapResource = resources.cubeTextures.find(v => v.id === CUBE_TEXTURE_IDS.ShoppingStreet);
   const envMap: THREE.CubeTexture = envMapResource
     ? envMapResource.texture
     : new THREE.CubeTexture();

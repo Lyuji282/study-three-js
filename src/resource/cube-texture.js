@@ -25,6 +25,7 @@ export type CubeTextureResource = {
 /** キューブテクスチャIDをまとめたもの */
 export const CUBE_TEXTURE_IDS = {
   BlueSky: 'BlueSky',
+  ShoppingStreet: 'ShoppingStreet',
 };
 
 /** キューブテクスチャ設定をまとめたもの */
@@ -37,6 +38,15 @@ export const CUBE_TEXTURE_CONFIGS: CubeTextureConfig[] = [
     ny: 'sky-box/blue-sky/ny.png',
     pz: 'sky-box/blue-sky/pz.png',
     nz: 'sky-box/blue-sky/nz.png',
+  },
+  {
+    id: CUBE_TEXTURE_IDS.ShoppingStreet,
+    px: 'sky-box/shopping-street/px.png',
+    nx: 'sky-box/shopping-street/nx.png',
+    py: 'sky-box/shopping-street/py.png',
+    ny: 'sky-box/shopping-street/ny.png',
+    pz: 'sky-box/shopping-street/pz.png',
+    nz: 'sky-box/shopping-street/nz.png',
   }
 ];
 
